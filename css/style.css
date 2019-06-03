@@ -1,0 +1,258 @@
+
+html{
+	margin: 0 auto;
+}
+body{
+	font-family: 'Source Sans Pro', sans-serif;
+	font-size: 12pt;
+	font-weight: 400;
+	color: rgba(0,0,0,.8);
+	text-decoration: none;
+	margin: 0 auto;
+	 background: url(../img/overlay.png);
+    -moz-background-size: 100%; /* Firefox 3.6+ */
+    -webkit-background-size: 100%; /* Safari 3.1+ и Chrome 4.0+ */
+    -o-background-size: 100%; /* Opera 9.6+ */
+    background-size: 100%; /* Современные браузеры */
+}
+.header{
+	width: 99%;
+	margin: 0 auto;
+	background-image: url(../img/bg.jpg);
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+
+}
+.wrapper{
+	position: relative;
+	overflow: hidden;
+	height: 600px;
+	margin: 0 auto;
+	padding-top: 7%;
+	width: 80%;
+}
+.logo{
+	display: inline-block;
+}
+h1{
+	margin: 0 auto;
+}
+.logo h1 {
+	letter-spacing: -1px;
+	text-transform: lowercase;
+	font-size: 3.5em;
+	color: #000;
+}
+.logo p {
+	padding: 0px;
+	letter-spacing: 0.05em;
+	text-transform: uppercase;
+	font-size: 0.9em;
+	color: #161616;
+}
+.logo p a {
+	color: #161616
+	}
+.logo a {
+	border: none;
+	background: none;
+	text-decoration: none;
+	color: #000;
+}
+#social{
+	display: inline-block;
+	float: right;
+}
+li{
+	display: inline;
+}
+
+.menuu{
+	margin: 0 auto;
+	text-align: center;
+	color: rgba(255,255,255,0.5);
+	font-size: 16px;
+
+}
+.menu{
+	display: block;
+	background-color: #000000;
+	margin: 0 auto;
+	text-align: center;
+	width: 80%;
+	line-height: 70px;
+
+}
+a{
+	text-decoration: none;
+	
+}
+.lowmenu{
+
+	padding-left: 30px;
+	padding-right: 30px;
+}
+.contact{
+	-webkit-user-select: none;
+
+}
+.socialicon a {
+	color: white;
+	text-align: center;
+}
+span{
+	display: none;
+	margin: 0 auto;
+}
+ul.contact li{
+	padding-right: 20px;
+	padding-left: 20px;
+
+}
+.content{
+	text-align: center;
+	margin: 0 auto;
+	width: 100%;
+	line-height: 180%;
+	padding-bottom: 70px;
+}
+.pcontent{
+	width: 97%;
+	text-align: left;
+	
+}
+.blockcon{
+	display: inline-block;
+	overflow: hidden;
+	height: 331px;
+	width: 300px;
+	margin-left: 5px;
+}
+.conteiner1 h2 {
+		margin-bottom: 32px;
+		overflow: hidden;
+		letter-spacing: 0em;
+		font-size: 1.5em;
+		font-weight: 400;
+		color: rgba(0,0,0,0.8);
+}
+.conteiner2{
+	display: inline-block;
+	height: 331px;
+	width: 300px;
+	
+}
+.conteiner2 h2{
+	margin-bottom: 32px;
+		overflow: hidden;
+		letter-spacing: 0em;
+		font-size: 1.5em;
+		font-weight: 400;
+		color: rgba(0,0,0,0.8);
+}
+.conteiner3 h2{
+	margin-bottom: 32px;
+		overflow: hidden;
+		letter-spacing: 0em;
+		font-size: 1.5em;
+		font-weight: 400;
+		color: rgba(0,0,0,0.8);
+}
+.conteiner4 h2{
+	margin-bottom: 32px;
+		overflow: hidden;
+		letter-spacing: 0em;
+		font-size: 1.5em;
+		font-weight: 400;
+		color: rgba(0,0,0,0.8);
+
+}
+.sizeimg{
+	width:282px;
+	height:150px;
+}
+.blockcon img {
+ -moz-transition: all 1s ease-out;
+ -o-transition: all 1s ease-out;
+ -webkit-transition: all 1s ease-out;
+ }
+ .blockcon img:hover{
+ -webkit-transform: scale(0.8);
+ -moz-transform: scale(0.8);
+ -o-transform: scale(0.8);
+ }
+ ul, menu, dir{
+ 	padding-left: 0px;
+ }
+ .portfolio{
+ 	text-align: center;
+ 	width: 100%;
+ 	margin: 0 auto;
+ 	padding-top: 40px;
+ 	line-height: 180%;
+ 	border-top: 1px solid rgba(0,0,0,.05);
+ 	background: rgba(0,0,0,.02);
+ }
+ .h2ptitle{
+ 	text-align: left;
+ 	width: 85%;
+ 	padding-top: 0.50em;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 1.1em;
+	padding-bottom: 40px;
+ }
+ .portfilioconteiner{
+ 	text-align: left;
+	margin: 0 auto;
+	width: 80%;
+
+ }
+ .texttitle{
+ 	width: 75%;
+ 	margin: 0 auto;
+
+ }
+
+
+ .blocltitle{
+ 	text-align: left;
+ 	display: inline-block;
+	overflow: hidden;
+	height: 331px;
+	width: 300px;
+	margin-left: 5px;
+ }
+ .portfolio h2{
+ 		font-size: 3.5em;
+		font-weight: 40;
+		color: rgba(0,0,0,0.8);
+		letter-spacing: -2px;
+		text-transform: uppercase;
+		margin-bottom: 0;
+		text-align: left;
+ }
+ .button{
+		display: inline-block;
+		margin-top: 2em;
+		padding: 0em 1em;
+		background: #161616;
+		letter-spacing: 0.10em;
+		line-height: 3em;
+		text-decoration: none;
+		text-transform: uppercase;
+		font-weight: 400;
+		font-size: 1em;
+		color: #FFF;
+	}
+	footer p{
+		text-align: center;
+	}
+	.ptitle{
+		width: 83%;
+	}
+	footer{
+		padding-top: 40px;
+	}
